@@ -1,0 +1,15 @@
+<form [formGroup]="form">
+  <div class="form-gorup">
+    <label for="name">Name</label>
+    <input type="text" name="name" formControlName="name"><br>
+  </div>
+  <div class="form-group">
+    <label for="type">Type</label>
+    <input type="number" name="type" formControlName="type"><br>
+  </div>
+  <div class="form-group">
+    <label for="description">Description</label>
+    <input type="text" name="description" formControlName="description"><br>
+  </div>
+  <button type="submit">Add</button>
+</form> 
